@@ -1,3 +1,3 @@
 ### Alarm
 
-Click [here](https://github.com/rb-parmar/Alarm/index.html) to use my alarm.
+Click [here](https://github.com/rb-parmar/Alarm/blob/main/index.html) to use my alarm.

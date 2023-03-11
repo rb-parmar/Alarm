@@ -1,0 +1,92 @@
+@import url(./reset.css);
+
+:root {
+  --app-dark-bg: #1a1d28;
+  --app-green: #33ab4e;
+  --app-purple: #833cff;
+  --app-orange: #ff833c;
+  --app-blue: #3c57ff;
+  --app-blue-hover: #364ee6;
+  --app-red: #ff3c57;
+  --app-red-hover: #ff2846;
+}
+
+body {
+  background-color: var(--app-dark-bg);
+}
+
+.container {
+  width: min(100% - 30px, 1080px);
+  height: 100vh;
+  display: grid;
+  place-items: center;
+  margin-inline: auto;
+}
+
+.time {
+  height: 100px;
+  width: 400px;
+  border-radius: 10px;
+  text-align: center;
+  line-height: 100px;
+  font-size: 48px;
+  color: #17d4fe;
+  border: #fff solid 0.5px ;
+  font-family: Orbitron;
+}
+
+.output {
+  height: 25px;
+  width: 90px;
+  color: #fff;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background: url(../image/alarm.png) no-repeat 5px;
+  background-size: 20px;
+  padding-left: 30px;
+  line-height: 27px;
+  font-size: 14px;
+}
+
+form {
+  text-align: center;
+}
+
+input[type=text] {
+  width: 90px;
+  height: 30px;
+  text-align: center;
+  border-radius: 30px;
+  background-color: rgb(255 255 255 / 0.1);
+  color: #fff;
+  transition: border-color 0.25s ease-in-out;
+
+}
+
+input[type=text]:focus {
+  border-color: rgb(255 255 255 / 0.30);
+}
+
+input[type=button] {
+  width: 110px;
+  height: 30px;
+  text-align: center;
+  border-radius: 30px;
+  background-color: #17d4fe;
+  color: #000;
+  transition: all 0.5s ease-in-out;
+}
+
+input[type=button]:hover {
+  background-color: #1dc3e9;
+}
+
+.msg {
+  width: 250px;
+  height: 40px;
+  margin: auto;
+  margin-top: 20px;
+  color: #fff;
+  font-size: 14px;
+}
